@@ -1,1 +1,2 @@
+#Python==3.9.8
 pymssql==2.3.4
