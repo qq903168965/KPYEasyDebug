@@ -3,7 +3,7 @@
 import sqlite3
 
 
-def create_db(database_name="KPYEasyDebug.db"):
+def create_db(database_name="../db/KPYEasyDebug.db"):
     try:
         connection = sqlite3.connect(database_name)
         cursor = connection.cursor()
